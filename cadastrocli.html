@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="icon" href="imagens/logo.png">
+    <link rel="stylesheet" href="cadastrocli.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="menu.html"class="logo">
+                <img src="imagens/logo.png" alt="Connection and Art">
+                <h1>CONNECTION AND ART</h1>
+            </a>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquise um artista">
+            </div>
+            <div class="user-actions">
+                <ul>
+                    <li>
+                        <a href="teste.html">
+                            <img src="imagens/carrinho.png" alt="carrinho">
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <img src="imagens/menu.png" alt="carrinho" class="dropbtn">
+                            <div class="dropdown-content">
+                            <a href="login.php">login</a>
+                            <a href="logout.php">logout</a>
+                            <a href="http://localhost/php/front/cadastro.html">cadastro de prod</a>
+                            <a href="http://localhost/php/front/cadastrocli.html">Cadastro de clientes</a>
+                            </div>
+                          </div>
+                          </div>
+                    </li>
+                </ul>
+            </div>
+    </header>
+    <hr>
+        <div class="modal">
+                <form action="cadastro.php">
+                <h2>Cadastre-se</h2>
+                <input type="text" placeholder="nome" name="nome">
+                <input type="text" placeholder="email" name="email">
+                <input type="password" placeholder="senha" name="senha">
+                <input type="submit">
+                <p>Ou</p>
+                <button class="social-btn google">Google</button>
+                <button class="social-btn facebook">Facebook</button>
+                </form>
+        </div>
+</body>
+</html>
