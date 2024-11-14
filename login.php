@@ -1,4 +1,5 @@
 <?php
+include('cabecalho.html');
 include('conexao.php');
 if (isset($_POST['email']) || isset($_POST['senha'])){
  if (strlen($_POST['email']) == 0){
@@ -19,7 +20,7 @@ if (isset($_POST['email']) || isset($_POST['senha'])){
         session_start();
         $_SESSION['id'] = $usuario['id'];
         $_SESSION['nome'] = $usuario['nome'];
-        header("Location: carrinho1.php");
+        header("Location: vercarro.php");
         exit; // Interrompe a execução do script
     } else{
         echo "Falha ao logar! Email ou senha incorretos";
@@ -27,55 +28,24 @@ if (isset($_POST['email']) || isset($_POST['senha'])){
 }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <title>Login</title>
     <link rel="icon" href="imagens/logo.png">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="menu.html"class="logo">
-                <img src="imagens/logo.png" alt="Connection and Art">
-                <h1>CONNECTON AND ART</h1>
-            </a>
-            <div class="search-bar">
-                <input type="text" placeholder="Pesquise um artista">
-            </div>
-            <div class="user-actions">
-                <ul>
-                    <li>
-                        <a href="carrinho.php">
-                            <img src="imagens/carrinho.png" alt="carrinho">
-                        </a>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <img src="imagens/menu.png" alt="carrinho" class="dropbtn">
-                            <div class="dropdown-content">
-                            <a href="login.php">login</a>
-                            <a href="logout.php">logout</a>
-                            <a href="http://localhost/php/front/cadastro.html">Cadastro de prod</a>
-                            <a href="http://localhost/php/front/cadastrocli.html">Cadastro de clientes</a>
-                            </div>
-                          </div>
-                          </div>
-                    </li>
-                </ul>
-            </div>
-    </header>
-    <hr>
-        <div class="modal">
-                <form action="login.php" method="POST">
-                <h1>Login</h1>
-                <input type="text" placeholder="email" name="email">
-                <input type="password" placeholder="senha" name="senha">
-                <input type="submit">
-                </form>
+    <div class="modal">
+            <form action="login.php" method="POST"> 
+            <h2>Login</h2>
+            <input type="text" placeholder="email" name="email">
+            <input type="password" placeholder="senha" name="senha">
+            <input type="submit" placeholder="senha">
+            </form>
         </div>
 </body>
 </html>

@@ -3,9 +3,9 @@
 <?php
     $ordem = $_GET['ordem'];
     switch($ordem){
-        case 1: $sql= "select * from cliente order by nome asc"; break;
-        case 2: $sql= "select * from cliente order by nome desc"; break;
-        default: $sql= "select * from cliente";
+        case 1: $sql= "SELECT * from cliente order by nome asc"; break;
+        case 2: $sql= "SELECT * from cliente order by nome desc"; break;
+        default: $sql= "SELECT * from cliente";
     }
     $conexao = mysqli_connect('localhost','root','','connection');
     $executar = mysqli_query($conexao, $sql);
@@ -15,6 +15,7 @@
         <th>nome</th>
         <th>email</th>
         <th>senha</th>
+        <th>atualizar</th>
         <th>excluir</th>
     </tr>";
     while ($res = mysqli_fetch_array($executar)){
@@ -27,7 +28,7 @@
         <td>$nome</td>
         <td>$email</td>
         <td>$senha</td>
-        <!--<td><a href='atualizar.php?id=$id'>atualizar</a></td>-->
+        <td><a href='atualizar.php?id=$id'>atualizar</a></td>
         <td><a href='excluir.php?id=$id'>excluir</a></td>
         </tr>";
 }

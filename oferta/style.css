@@ -1,0 +1,85 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .header-container h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header-container input {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .header-container nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .offer-section {
+    padding: 20px;
+  }
+  
+  .offer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .offer-header h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  

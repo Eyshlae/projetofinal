@@ -1,13 +1,13 @@
 <?php
 //include('sessao.php');
 $nome = $_GET['nome'];
-$quantidade = $_GET['quantidade'];
-$preco = $_GET['preco'];
+$email = $_GET['email'];
+$senha = $_GET['senha'];
 $conexao = mysqli_connect('localhost', 'root','', 'connection');
-$instrucao = "INSERT INTO cliente (nome,quantidade,preco) VALUES ('$nome','$quantidade','$preco')";
+$instrucao = "INSERT INTO cliente (nome,email,senha) VALUES ('$nome','$email','$senha')";
 $executar = mysqli_query($conexao, $instrucao);
 if($executar == 1 ){
-    echo "Sucesso!";
+    header("location: menu.html");
 }
 else{
     echo "Erro!";

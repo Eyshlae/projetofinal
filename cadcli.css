@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  .modal form {
+    background-color: #ff0606;
+    padding: 20px;
+    border-radius: 8px;
+    }
+    .modal form {
+    position: relative;
+    top: 20px;
+    width: 55%;
+    left: 20%;
+    background-color: #aaaaaa;
+    padding: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+    .modal h2{
+    position: relative;
+    left: 278px;
+    }
+    .modal form input[type="submit"] {
+      position: relative;
+      left: 210px;
+      width: 300px;
+    }
+    .modal input {
+    position: relative;
+    left: 60px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 15px;
+    width: 600px;
+    }
+    .modal a {
+    top: -20px;
+    position: relative;
+    color:#2600ff;
+    right: -570px;
+  }
