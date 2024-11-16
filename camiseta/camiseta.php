@@ -3,28 +3,28 @@ include('cabecalho.html');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-    <link rel="stylesheet" href="vinil.css">
+    <link rel="stylesheet" href="camiseta.css">
     <main>
-        <h1>DISCOS DE VINIL</h1>
+        <h1>CAMISETA</h1>
         <div class="products">
             <div class="product-card">
-                <img src="imagem/frank.png" alt="Quadro Flower Boy">
-                <p>De: Frank Ocean</p>
+                <img src="imagem/baco.png" alt="Quadro Flower Boy">
+                <p>De: Baco Exu do Blues</p>
                 <p>Por: <span class="price-sale">R$159,18</span></p>
             </div>
             <div class="product-card">
-                <img src="imagem/kanye.png" alt="Quadro Starboy">
-                <p>De: Kanye West</p>
+                <img src="imagem/bk.png" alt="Quadro Starboy">
+                <p>De: BK</p>
                 <p>Por: <span class="price-sale">R$159,18</span></p>
             </div>
             <div class="product-card">
-                <img src="imagem/lauryn.png" alt="Quadro DAMN.">
-                <p>De: Lauryn Hill</p>
+                <img src="imagem/main.png" alt="Quadro DAMN.">
+                <p>De: Grupo Mainstreet</p>
                 <p>Por: <span class="price-sale">R$159,18</span></p>
             </div>
             <div class="product-card">
-                <img src="imagem/ta.png" alt="Quadro Graduation">
-                <p>De: Metro Boomin</p>
+                <img src="imagem/slip.png" alt="Quadro Graduation">
+                <p>De: Slipmami</p>
                 <p>Por: <span class="price-sale">R$159,18</span></p>
             </div>
         </div>

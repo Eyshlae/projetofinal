@@ -15,7 +15,6 @@ include('cabecaadm.html');
         <ul>
         <li><a href="http://localhost/php/TCC/relatocli.php">Relatório de clientes</a></li>
         <li><a href="http://localhost/php/TCC/cadastro.php">Cadastro de produtos</a></li>
-        <li><a href="http://localhost/php/TCC/cadastro.php">Produtos cadastrados</a></li>
         </ul>
     </div>
 </body>

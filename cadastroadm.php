@@ -1,4 +1,6 @@
-
+<?php
+include('cabecalho.html');
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
     <link rel="icon" href="imagens/logo.png">
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="cadadm.css">
 </head>
 <body>
         <div class="modal">

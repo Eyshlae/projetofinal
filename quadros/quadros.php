@@ -8,24 +8,24 @@ include('cabecalho.html');
         <h1>QUADROS</h1>
         <div class="products">
             <div class="product-card">
-                <img src="imagem/kendrikms.jpg" alt="Quadro Flower Boy">
-                <p>De: Felipe Morais</p>
-                <p>Por: <span class="price-original">R$198,98</span> <span class="price-sale">R$159,18</span></p>
+                <img src="imagem/kendrikms.jpg" alt="Quadro kendrick">
+                <p>De: Kendrick Lamar</p>
+                <p>Por:<span class="price-sale">R$159,18</span></p>
             </div>
             <div class="product-card">
                 <img src="imagem/damn.webp" alt="Quadro Starboy">
-                <p>De: Felipe Morais</p>
-                <p>Por: <span class="price-original">R$198,98</span> <span class="price-sale">R$159,18</span></p>
+                <p>De: Kendrick Lamar</p>
+                <p>Por:<span class="price-sale">R$159,18</span></p>
             </div>
             <div class="product-card">
                 <img src="imagem/travis.jpg" alt="Quadro DAMN.">
-                <p>De: Felipe Morais</p>
-                <p>Por: <span class="price-original">R$198,98</span> <span class="price-sale">R$159,18</span></p>
+                <p>De: Travis Scott</p>
+                <p>Por: <span class="price-sale">R$159,18</span></p>
             </div>
             <div class="product-card">
                 <img src="imagem/racionais.webp" alt="Quadro Graduation">
-                <p>De: Felipe Morais</p>
-                <p>Por: <span class="price-original">R$198,98</span> <span class="price-sale">R$159,18</span></p>
+                <p>De: Racionais</p>
+                <p>Por: <span class="price-sale">R$159,18</span></p>
             </div>
         </div>
     </main>

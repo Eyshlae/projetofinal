@@ -15,7 +15,7 @@
   }
   .modal h2{
   position: relative;
-  left: 245px;
+  left: 290px;
   }
   .modal form input[type="submit"] {
     position: relative;
@@ -27,7 +27,7 @@
   left: 60px;
   margin: 10px;
   padding: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid rgb(121, 121, 121);
   border-radius: 15px;
   width: 600px;
